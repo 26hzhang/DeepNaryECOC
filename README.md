@@ -29,14 +29,14 @@ Take the MNIST dataset as an example. Training the model for MNIST dataset witho
 python train_mnist.py --gpu_idx 0 \  # specify the gpu index
                       --training True \  # specify the mode (training or testing)
                       --num_meta_class 3 \  # specify the number of meta classes
-                      --num_classifier 60 \  # specify the number of base learners
+                      --num_classifier 60  # specify the number of base learners
 ```
 Training the model for MNIST dataset with full sharing base learners' encoder parameters (except for the classifier head):
 ```shell
 python train_mnist_full.py --gpu_idx 0 \  # specify the gpu index
                            --training True \  # specify the mode (training or testing)
                            --num_meta_class 3 \  # specify the number of meta classes
-                           --num_classifier 60 \  # specify the number of base learners
+                           --num_classifier 60  # specify the number of base learners
 ```
 
 ## Citation
