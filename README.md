@@ -50,3 +50,16 @@ If you feel this project helpful to your research, please cite our work.
   url={https://arxiv.org/pdf/2009.10465.pdf}
 }
 ```
+and
+```text
+@article{zhou2019n,
+  title={N-ary decomposition for multi-class classification},
+  author={Zhou, Joey Tianyi and Tsang, Ivor W and Ho, Shen-Shyang and M{\"u}ller, Klaus-Robert},
+  journal={Machine Learning},
+  volume={108},
+  number={5},
+  pages={809--830},
+  year={2019},
+  publisher={Springer}
+}
+```
